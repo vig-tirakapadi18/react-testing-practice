@@ -25,7 +25,10 @@ const GetByRole = () => {
         </div>
         <div>
           <label htmlFor="bio">Bio:</label>
-          <textarea id="bio" />
+          <textarea
+            id="bio"
+            placeholder="Bio"
+          />
         </div>
         <div>
           <label htmlFor="job-location">Job location</label>
