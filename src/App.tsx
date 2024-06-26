@@ -2,12 +2,14 @@ import logo from "./logo.svg";
 import "./App.css";
 import Greeting from "./components/Greeting";
 import GetByRole from "./components/GetByRole";
+import GetAllByRole from "./components/GetAllByRole";
 
 function App() {
   return (
     <div className="App">
       <Greeting name="Vig" />
       <GetByRole />
+      <GetAllByRole skills={["HTML", "CSS", "JS", "TS"]} />
       <header className="App-header">
         <img
           src={logo}
