@@ -3,13 +3,20 @@ import "./App.css";
 import Greeting from "./components/Greeting";
 import GetByRole from "./components/GetByRole";
 import GetAllByRole from "./components/GetAllByRole";
+import QueryBy from "./components/QueryBy";
+import FindBy from "./components/FindBy";
+
+const skills = ["HTML", "CSS", "JS", "TS"];
 
 function App() {
   return (
     <div className="App">
       <Greeting name="Vig" />
       <GetByRole />
-      <GetAllByRole skills={["HTML", "CSS", "JS", "TS"]} />
+      <GetAllByRole skills={skills} />
+      <QueryBy skills={skills} />
+      <FindBy skills={skills} />
+
       <header className="App-header">
         <img
           src={logo}
