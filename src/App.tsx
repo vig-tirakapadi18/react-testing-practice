@@ -5,6 +5,7 @@ import GetByRole from "./components/GetByRole";
 import GetAllByRole from "./components/GetAllByRole";
 import QueryBy from "./components/QueryBy";
 import FindBy from "./components/FindBy";
+import MouseInteractions from "./components/MouseInteractions";
 
 const skills = ["HTML", "CSS", "JS", "TS"];
 
@@ -16,6 +17,7 @@ function App() {
       <GetAllByRole skills={skills} />
       <QueryBy skills={skills} />
       <FindBy skills={skills} />
+      <MouseInteractions />
 
       <header className="App-header">
         <img
